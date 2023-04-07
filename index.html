@@ -9,13 +9,22 @@
     <meta property="og:description" content="Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden design firm that specializes in garden design and creation, maintenance and landscaping. The company also runs a small plant nursery that sells indoor and outdoor plants, making them a one-stop shop for clients to transform any space into an oasis you can be proud of">
     <title>Lucky Shrub</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <img src="./assets/logo/Asset 2@3x.png" alt="Lucky Shrub logo" >
     </header>
+  
+    <div class="menu-wrapper">
+        <a href="javascript:void(0);" class="menu-icon" onclick="menu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+        
+    
     <nav>
-        <ul class="nav-links">
+        <ul id="nav-links">
             <li><a href="index.html">Home </a></li>
             <li><a href="#">About </a></li>
             <li><a href="#">Service </a></li>
@@ -41,8 +50,6 @@
         <section>
             <div class="cards">
                 <article class="shop">
-                  
-                 
                         <h2>Shop</h2>
                         <p>Get greeneries that makes your house feels like paradise</p>
                            
@@ -69,8 +76,9 @@
        
         </section>
         <footer>
+            <script src="script.js"></script>
             <div>
-                <img class="footer-logo" src="/assets/logo/Asset 2@3x.png" alt="lucky shrub logo">
+                <img class="footer-logo" src="./assets/logo/Asset 2@3x.png" alt="lucky shrub logo">
             </div>
             <div class="copyright">
                 <p>&copy; 2023 Lucky Shrub - Arizona</p>
