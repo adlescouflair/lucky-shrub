@@ -274,6 +274,10 @@ footer div {
         background-color: var(--darker-green);
      }
 
+     #nav-links {
+        display: none;
+     }
+
      .menu-icon{
         color: white;
         font-size: 20px;
