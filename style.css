@@ -272,6 +272,7 @@ footer div {
         flex-direction: row;
         justify-content: end;
         background-color: var(--darker-green);
+        padding: 0 var(--default-spacing);
      }
 
      #nav-links {
